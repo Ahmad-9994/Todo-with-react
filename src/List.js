@@ -95,7 +95,7 @@ const List = () => {
 
       <button onClick={listdata}>ADD</button>
 
-      {/* Displaying the list data in a table */}
+      
 
       <table>
         <thead>
