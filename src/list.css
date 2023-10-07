@@ -1,0 +1,94 @@
+
+.todo-main {
+    width: 600px;
+    /* margin: 0 auto; */
+    padding: 30px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    background-color: #f7f7f7;
+    max-height: 600px;
+    overflow: scroll;
+    margin: 50px auto;
+    
+  }
+  .list{
+   
+    display: flex;
+    justify-content: space-between;
+    background-color: #ccc;
+    margin: 10px 0px;
+    padding:0px 0px 0px 5px;
+  }
+  .todo-main input[type='text'] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .todo-main button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+
+  
+  .todo-main .list h1 { 
+    font-size: 28px;
+    line-height: 8px;
+  }
+
+.todo-main .list button{
+  background-color: RED;
+}
+
+
+
+
+  .pagination{
+    margin: 10px;
+  }
+
+
+  .pagination button{
+    border:2px solid blue;
+    background-color: transparent;
+    padding: 10px;
+    color: black;
+  }
+  
+  /* list.css */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin:10px 0px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+
+.search-bar{
+  width: 30%;
+  text-align: right;
+}
+
+.completed-button {
+  background-color: green !important;
+  /* Use !important to ensure it overrides other styles */
+}
